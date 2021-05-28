@@ -40,7 +40,7 @@ class Application(tk.Frame):
         self.conf_value_frame(value_frame, value_label, text_label)
 
         buttons_frame = tk.Frame(self.master, background="#000000")
-        t_button = tk.Button(buttons_frame, text="4D", width=5, height=2, font=('Courier', 15, 'bold'))
+        t_button = tk.Button(buttons_frame, text="5D", width=5, height=2, font=('Courier', 15, 'bold'))
         m_button = tk.Button(buttons_frame, text="M", width=5, height=2, font=('Courier', 15, 'bold'))
         r_button = tk.Button(buttons_frame, text="R", width=5, height=2, font=('Courier', 15, 'bold'))
         self.conf_graph_buttons(buttons_frame, t_button, m_button, r_button)
