@@ -389,6 +389,5 @@ def config_plot(values_plot, chart_figure, material_symbol, chart_range, days):
         for i in range(len(days)):
             if i % 36 == 0:
                 days_for_year.append(i)
-        days_for_year.append(len(days)-1)
 
         values_plot.set_xticks(days_for_year)
