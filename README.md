@@ -1,2 +1,4 @@
 # ProjectGIELDA_SUROWCOW
-Projekt zaliczeniowy, języki skryptowe. Giełda surowców API.
+Projekt zaliczeniowy, języki skryptowe. 
+Mini Giełda surowców korzystająca z API Yahoo Finance.
+Autor: Dominik Omański
