@@ -40,7 +40,7 @@ def select_material(image_label, name_label, variable, t_button, m_button, r_but
     :param image_label: etykieta, w której wyświetlany jest obrazek ukazujący wybrany surowiec
     :param name_label: etykieta, w której wyświetlana jest nazwa wybranego surowca
     :param variable: wartość wybrana w menu opcji(nazwa jednego z pięciu surowców)
-    :param t_button: przycisk do wyświetlania wykresu z ostatnich 4 dni (uruchamiany domyślnie)
+    :param t_button: przycisk do wyświetlania wykresu z ostatnich 5 dni (uruchamiany domyślnie)
     :param m_button: przycisk do wyświetlania wykresu z ostatniego miesiąca
     :param r_button: przycisk do wyświetlania wykresu z ostatniego roku
     :param text_label: etykieta, w której wyświetlana jest wartość wybranego surowca
@@ -87,10 +87,10 @@ def select_material(image_label, name_label, variable, t_button, m_button, r_but
 
 def t_button_action(name_label, t_button, m_button, r_button, chart_frame):
     """
-    Funkcja definiująca działanie przycisku wyświetlającego wykres wartości z ostatnich 4 dni.
+    Funkcja definiująca działanie przycisku wyświetlającego wykres wartości z ostatnich 5 dni.
 
     :param name_label: etykieta, w której wyświetlana jest nazwa wybranego surowca
-    :param t_button: przycisk do wyświetlania wykresu z ostatnich 4 dni (uruchamiany domyślnie)
+    :param t_button: przycisk do wyświetlania wykresu z ostatnich 5 dni (uruchamiany domyślnie)
     :param m_button: przycisk do wyświetlania wykresu z ostatniego miesiąca
     :param r_button: przycisk do wyświetlania wykresu z ostatniego roku
     :param chart_frame: ramka, w której wyświetlany jest wykres wartości wybranego surowca
@@ -120,7 +120,7 @@ def m_button_action(name_label, t_button, m_button, r_button, chart_frame):
     Funkcja definiująca działanie przycisku wyświetlającego wykres wartości z ostatniego miesiąca.
 
     :param name_label: etykieta, w której wyświetlana jest nazwa wybranego surowca
-    :param t_button: przycisk do wyświetlania wykresu z ostatnich 4 dni (uruchamiany domyślnie)
+    :param t_button: przycisk do wyświetlania wykresu z ostatnich 5 dni (uruchamiany domyślnie)
     :param m_button: przycisk do wyświetlania wykresu z ostatniego miesiąca
     :param r_button: przycisk do wyświetlania wykresu z ostatniego roku
     :param chart_frame: ramka, w której wyświetlany jest wykres wartości wybranego surowca
@@ -150,7 +150,7 @@ def r_button_action(name_label, t_button, m_button, r_button, chart_frame):
     Funkcja definiująca działanie przycisku wyświetlającego wykres wartości z ostatniego roku.
 
     :param name_label: etykieta, w której wyświetlana jest nazwa wybranego surowca
-    :param t_button: przycisk do wyświetlania wykresu z ostatnich 4 dni (uruchamiany domyślnie)
+    :param t_button: przycisk do wyświetlania wykresu z ostatnich 5 dni (uruchamiany domyślnie)
     :param m_button: przycisk do wyświetlania wykresu z ostatniego miesiąca
     :param r_button: przycisk do wyświetlania wykresu z ostatniego roku
     :param chart_frame: ramka, w której wyświetlany jest wykres wartości wybranego surowca
@@ -348,7 +348,7 @@ def config_plot(values_plot, chart_figure, material_symbol, chart_range, days):
     :param values_plot: wykres, który będzie stylizowany
     :param chart_figure: figura, w której tworzony jest wykres
     :param material_symbol: symbol materiału dla którego generowany jest wykres
-    :param chart_range: okres, z któego wygenerowany został wykres (4 dni, miesiąc lub rok)
+    :param chart_range: okres, z któego wygenerowany został wykres (5 dni, miesiąc lub rok)
     :param days: lista dni dla których wygenerowany został wykres
     """
 

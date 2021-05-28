@@ -151,7 +151,7 @@ class Application(tk.Frame):
         Stylizacja ramki, w której znajdują się przyciski używane do określenia jaki typ wykresu ma być wyświetlany.
 
         :param buttons_frame: ramka, w której znajdują się wszytskie poniższe przyciski
-        :param t_button: przycisk do wyświetlania wykresu z ostatnich 4 dni (uruchamiany domyślnie)
+        :param t_button: przycisk do wyświetlania wykresu z ostatnich 5 dni (uruchamiany domyślnie)
         :param m_button: przycisk do wyświetlania wykresu z ostatniego miesiąca
         :param r_button: przycisk do wyświetlania wykresu z ostatniego roku
         """

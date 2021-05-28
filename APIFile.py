@@ -50,7 +50,7 @@ def get_chart(material_symbol, chart_range, chart_frame):
     Funkcja tworząca oraz wyświetlająca w graficznym interfejsie wykres wybranego surowca dla podanego okresu.
 
     :param material_symbol: symbol opisujący wybrany surowiec, którego wykres chcemy wyświetlić
-    :param chart_range: okres z jakiego chcemy wygenerować wykres (4 dni, miesiąc lub rok)
+    :param chart_range: okres z jakiego chcemy wygenerować wykres (5 dni, miesiąc lub rok)
     :param chart_frame: ramka, w której wyświetlony zostanie wykres
     :return: funkcja zwraca wartość None w przypadku, w którym wystąpi błąd pobierania danych z API.
     """
